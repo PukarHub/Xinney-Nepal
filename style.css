@@ -1,3 +1,23 @@
-.hr {
-  background-color: black;
+hr{
+  background-color:black;
+  margin:1px;
+  margin-top:5px;
+}
+.contact{
+  align-items: center;
+}
+.search{
+  margin:5px;
+  margin-top:10px;
+}
+.img{
+  margin-top:10px;
+  height:60px;
+  width:150px;
+}
+.nav-item{
+  padding:0;
+}
+.i-margin{
+    margin-left: 40px;
 }
