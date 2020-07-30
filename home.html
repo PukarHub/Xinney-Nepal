@@ -4,76 +4,60 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Xinney Nepal</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css"
-    />
-    <link rel="stylesheet" href="./style.css" />
+    <linkhref="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css"/>
+    <link rel="stylesheet" href="./style.css"/>
     <!-- <link rel="stylesheet" href="styles/debug.css"> -->
+  
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <figure class="image img">
-          <img src="./images/logo.PNG" />
-        </figure>
-      </div>
+            <div class="navbar-brand">
+                <figure class="image img">
+                  <img src="./images/logo.PNG" />
+                </figure>
+            </div>
       <div>
-        <div class="contact is-active is-dark">
-          <span><i class="fas fa-phone-alt"></i> +(977)98****** </span>
-          <span><i class="fas fa-mail-bulk"></i> Xinney@gmail.com</span>
-          <span
-            ><i class="fab fa-facebook" style="margin-left: 35px;"></i
-          ></span>
-          <span
-            ><i class="fab fa-instagram" style="margin-left: 5px;"></i
-          ></span>
-        </div>
+                  <div class="contact is-active is-dark">
+                        <span><i class="fas fa-phone-alt"></i> +(977)98****** </span>
+                        <span><i class="fas fa-mail-bulk"></i> Xinney@gmail.com</span>
+                        <span><i class="fab fa-facebook" style="margin-left: 35px;"></i></span>
+                        <span><i class="fab fa-instagram" style="margin-left: 5px;"></i></span>
+                  </div>
 
-        <hr />
-        <div class="navbar-menu is-active">
-          <a class="navbar-item">Home</a>
-          <a class="navbar-item">Categories</a>
-          <a class="navbar-item">Shop</a>
-          <a class="navbar-item">Brand</a>
-          <a class="navbar-item">Blogs</a>
-        </div>
+            <hr />
+                  <div class="navbar-menu is-active">
+                          <a class="navbar-item">Home</a>
+                          <a class="navbar-item">Categories</a>
+                          <a class="navbar-item">Shop</a>
+                          <a class="navbar-item">Brand</a>
+                          <a class="navbar-item">Blogs</a>
+                  </div>
       </div>
 
-      <div
-        class="navbar-menu"
-        style="padding: 4px 20px 10px; margin-top: 1rem;"
-      >
-        <div class="search field">
-          <p class="control has-icons-right">
-            <input
-              class="input"
-              type="text"
-              placeholder="What are you Looking for..."
-            />
-            <span class="icon is-small is-right">
-              <i class="fas fa-search"></i>
-            </span>
-          </p>
-        </div>
+      <div class="navbar-menu" style="padding: 4px 20px 10px; margin-top: 1rem;">
+          <div class="search field">
+              <p class="control has-icons-right">
+                <input class="input" type="text" placeholder="What are you Looking for..."/>
+                    <span class="icon is-small is-right">
+                      <i class="fas fa-search"></i>
+                    </span>
+              </p>
+          </div>
 
-        <a class="nav-item navbar-item navbar-end">
-          <span class="icon is-small is-right mx-5 desktop">
-            <i class="fas fa-user"></i>
-          </span>
-          <p>Account</p></a
-        >
-        <a class="navbar-item">
-          <span class="icon is-small is-right desktop">
-            <i class="fas fa-cart-arrow-down"></i>
-          </span>
-          <p>My Cart</p></a
-        >
+              <a class="nav-item navbar-item navbar-end">
+                    <span class="icon is-small is-right mx-5 desktop">
+                      <i class="fas fa-user"></i>
+                    </span>
+                  <p id="account">Account</p>
+              </a>
+              <a class="navbar-item">
+                    <span class="icon is-small is-right desktop">
+                      <i class="fas fa-cart-arrow-down"></i>
+                    </span>
+                  <p id="cart">My Cart</p>
+              </a>
       </div>
     </nav>
 
@@ -81,112 +65,967 @@
     <section class="hero">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title">
+          <h1 class="title" id="d1">
             On Demand
           </h1>
-          <h2 class="subtitle sub">
+          <h2 class="subtitle sub" id="d2">
             Authentic Cosmetic products from us
           </h2>
           <button class="button has-background-primary">Shop Now</button>
         </div>
       </div>
     </section>
+    <br>
+    <br>
+
+    <!-- HR -->
+     <!-- HR -->
+     <div class="columns">
+      <div class="column is-half"><hr></div>
+      <h2 id="h1">Best Seller</h2>
+      <div class="column is-half"><hr></div> 
+    </div>
 
     <!-- Card -->
-      <div class="container">
-                <div class="columns is-mobile is-multiline">
-                  <div  class="column">
-                    <div  class="column is-4">
-                      <div class="card large">
-                        <div class="card-image is-16by9">
-                          <figure class="image">
-                            <img src="./images/pexels-photo-208052.webp" alt="Image">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-left">
-                              <a href="#" class="button">Add To Cart</a>
-                            </div>
-                            <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
-                            <div class="media-content">
-                            
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+    <div class="columns">
+      <div class="column">
+        <div class="card-content" id="arrow">
+          <span><i class="fas fa-arrow-circle-left"></i></span>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by4">
+              <img src="./images/pexels-photo-2586073.webp" alt="Image">
+            </figure>
+          </div>
+            <div class="card-content">
+                <a href="#" class="button">Add To Cart</a>
+                <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
+                  <div class="star">
+                          <span><i id="blink" class="far fa-star"></i></span>
+                          <span><i id="blink" class="far fa-star"></i></span>
+                          <span><i id="blink" class="far fa-star"></i></span>
+                          <span><i id="blink" class="far fa-star"></i></span>
+                          <span><i id="blink" class="far fa-star"></i></span>
+                          <h4>Lorem Ipsum</h4>
+                          <p><strong>$ 30.00</strong></p>
                   </div>
-                  <div  class="columns">
-                    <div class="column is-4">
-                      <div class="card large">
-                        <div class="card-image is-16by9">
-                          <figure class="image">
-                            <img src="./images/pexels-photo-3018845.webp" alt="Image">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-left">
-                              <a href="#" class="button">Add To Cart</a>
-                            </div>
-                            <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
-                            <div class="media-content">
-                            
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+            </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by4">
+              <img src="./images/pexels-photo-3018845.webp" alt="Image">
+            </figure>
+          </div>
+              <div class="card-content">
+                <a href="#" class="button">Add To Cart</a>
+                <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
+                    <div class="star">
+                      <span><i id="blink" class="far fa-star"></i></span>
+                      <span><i id="blink" class="far fa-star"></i></span>
+                      <span><i id="blink" class="far fa-star"></i></span>
+                      <span><i id="blink" class="far fa-star"></i></span>
+                      <span><i id="blink" class="far fa-star"></i></span>
+                      <h4>Lorem Ipsum</h4>
+                      <p><strong>$ 30.00</strong></p>
                     </div>
-                  </div>
-                  <div  class="columns">
-                    <div class="column is-4">
-                      <div class="card large">
-                        <div class="card-image is-16by9">
-                          <figure class="image">
-                            <img src="./images/pexels-photo-2536965.webp" alt="Image">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-left">
-                              <a href="#" class="button">Add To Cart</a>
-                            </div>
-                            <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
-                            <div class="media-content">
-                            
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+              </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image  is-5by4">
+              <img src="./images/pexels-photo-2536965.webp" alt="Image">
+            </figure>
+          </div>
+              <div class="card-content">
+                <a href="#" class="button">Add To Cart</a>
+                <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
+                    <div class="star">
+                      <span><i id="blink" class="far fa-star"></i></span>
+                      <span><i id="blink" class="far fa-star"></i></span>
+                      <span><i id="blink" class="far fa-star"></i></span>
+                      <span><i id="blink" class="far fa-star"></i></span>
+                      <span><i id="blink" class="far fa-star"></i></span>
+                      <h4>Lorem Ipsum</h4>
+                      <p><strong>$ 30.00</strong></p>
                     </div>
-                  </div>
-                  <div  class="columns">
-                    <div class="column is-4">
-                      <div class="card large">
-                        <div class="card-image is-16by9">
-                          <figure class="image">
-                            <img src="./images/pexels-photo-2586073.webp" alt="Image">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-left">
-                              <a href="#" class="button">Add To Cart</a>
-                            </div>
-                            <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
-                            <div class="media-content">
-                            
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+              </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image  is-5by4">
+              <img src="./images/pexels-photo-2586073.webp" alt="Image">
+            </figure>
+          </div>
+              <div class="card-content">
+                    <a href="#" class="button">Add To Cart</a>
+                    <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
+                    <div class="star">
+                      <span><i id="blink" class="far fa-star"></i></span>
+                      <span><i id="blink" class="far fa-star"></i></span>
+                      <span><i id="blink" class="far fa-star"></i></span>
+                      <span><i id="blink" class="far fa-star"></i></span>
+                      <span><i id="blink" class="far fa-star"></i></span>
+                      <h4>Lorem Ipsum</h4>
+                      <p><strong>$ 30.00</strong></p>
                     </div>
-                  </div>
-    </div> 
+              </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card-content" id="arrow">
+          <span><i class="fas fa-arrow-circle-right"></i></span>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
 
+     <!-- HR -->
+     <div class="columns">
+      <div class="column is-half"><hr></div>
+      <h2 id="h2">Featured Products</h2>
+      <div class="column is-half"><hr></div> 
+    </div>
+
+    <!-- Card -->
+    <div class="columns">
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by4">
+              <img src="./images/pexels-photo-2586073.webp" alt="Image">
+            </figure>
+          </div>
+          <div class="card-content" style="text-align: center;">
+                <a href="#" class="button">Add To Cart</a>
+                <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
+              <div class="star">
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <h4>Lorem Ipsum</h4>
+                <p><strong>$ 30.00</strong></p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by4">
+              <img src="./images/pexels-photo-3018845.webp" alt="Image">
+            </figure>
+          </div>
+          <div class="card-content" style="text-align: center;">
+                <a href="#" class="button">Add To Cart</a>
+                <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
+              <div class="star">
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <h4>Lorem Ipsum</h4>
+                <p><strong>$ 30.00</strong></p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by4">
+              <img src="./images/pexels-photo-324654.webp" alt="Image">
+            </figure>
+          </div>
+          <div class="card-content" style="text-align: center;">
+                <a href="#" class="button">Add To Cart</a>
+                <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
+              <div class="star">
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <h4>Lorem Ipsum</h4>
+                <p><strong>$ 30.00</strong></p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div class="columns">
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by4">
+              <img src="./images/pexels-photo-2536965.webp" alt="Image">
+            </figure>
+          </div>
+          <div class="card-content" style="text-align: center;">
+                <a href="#" class="button">Add To Cart</a>
+                <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
+              <div class="star">
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <h4>Lorem Ipsum</h4>
+                <p><strong>$ 30.00</strong></p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by4">
+              <img src="./images/pexels-photo-3018845.webp" alt="Image">
+            </figure>
+          </div>
+          <div class="card-content" style="text-align: center;">
+                <a href="#" class="button">Add To Cart</a>
+                <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
+              <div class="star">
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <h4>Lorem Ipsum</h4>
+                <p><strong>$ 30.00</strong></p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by4">
+              <img src="./images/pexels-photo-457701.webp" alt="Image">
+            </figure>
+          </div>
+          <div class="card-content" style="text-align: center;">
+                <a href="#" class="button">Add To Cart</a>
+                <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
+              <div class="star">
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <span><i id="blink" class="far fa-star"></i></span>
+                <h4>Lorem Ipsum</h4>
+                <p><strong>$ 30.00</strong></p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+   
+      <br>
+    <br>
+
+     <!-- HR -->
+     <div class="columns">
+      <div class="column is-half"><hr></div>
+      <h2 id="h3">Subscription</h2>
+      <div class="column is-half"><hr></div> 
+    </div>
+
+    <!-- Column card -->
+    <div class="columns">
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by4">
+              <img src="/images/1.jpeg" alt="Loading...">
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by4">
+              <img src="/images/2.jpeg" alt="Loading...">
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by4">
+              <img src="/images/3.jpeg" alt="Loading...">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="columns">
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by4">
+              <img src="/images/4.jpeg" alt="Loading...">
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by4">
+              <img src="/images/5.jpg" alt="Loading...">
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by4">
+              <img src="/images/6.jpeg" alt="Loading...">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+
+    <div>
+      <h1 class="title" style="color: black !important; text-align: center;">To Check Out More Deals At Right Time</h1>
+      <h2 class="subtitle" style="color: black !important; text-align: center;">Follow Us At Our Social Media</h2>
+      </div>
+      <br>
+
+      <!-- HR -->
+       <div class="columns">
+        <div class="column is-half"><hr></div>
+        <a href="https://www.facebook.com">
+          <span><i class="fab fa-facebook-square" style="color: black; font-size: 2rem;"></i></span>
+        </a>
+        <a href="https://www.instagram.com">
+          <span><i class="fab fa-instagram-square" style="color: black; font-size: 2rem;" ></i></span>
+        </a>
+        <div class="column is-half"><hr></div> 
+      </div>
     
- 
+   <!-- Columns Card -->
+    <div class="columns">
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by4">
+              <img src="/images/Rectangle 23.png" alt="Loading...">
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by4">
+              <img src="/images/Rectangle 24.png" alt="Loading...">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <div>
+      <h1 class="title" style="color: black !important; text-align: center;">Are You A Makeup Artist?</h1>
+      <h2 class="subtitle is-2" style="color: black !important; text-align: center;">Sell our products and <strong style="color: deeppink;" >earn commission</strong></h2>
+      </div>
+
+      <br>
+      <br>
+       <!-- Card Person -->
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-5by4">
+                <img src="/images/Rectangle 32.png" alt="Loading...">
+              </figure>
+              <h2 class="subtitle">Jane Cooper</h2>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-5by4">
+                <img src="/images/Rectangle 33.png" alt="Loading...">
+              </figure>
+              <h2 class="subtitle">Wade Warren</h2>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-5by4">
+                <img src="/images/Rectangle 34.png" alt="Loading...">
+              </figure>
+              <h2 class="subtitle">Kristin Watson</h2>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-5by4">
+                <img src="/images/Rectangle 35.png" alt="Loading...">
+              </figure>
+              <h2 class="subtitle">Robert Fox</h2>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-5by4">
+                <img src="/images/Rectangle 36.png" alt="Loading...">
+              </figure>
+              <h2 class="subtitle">Jerome Bell</h2>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-5by4">
+                <img src="/images/Rectangle 37.png" alt="Loading...">
+              </figure>
+              <h2 class="subtitle">Devon Lane</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+       <!-- HR -->
+     <div class="columns">
+      <div class="column is-half"><hr></div>
+      <h2 id="h4">Our Products</h2>
+      <div class="column is-half"><hr></div> 
+    </div>
+    <br>
+    <br>
+
+    <!-- card -->
+    <div class="columns">
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by4">
+              <img src="/images/Rectangle 38.png" alt="Loading...">
+            </figure>
+          </div>
+          <div class="card-content" style="text-align: center;">
+            <h4>Lorem Ipsum</h4>
+            <p><strong>$ 80.00</strong></p>
+            <a href="#" class="button">Add To Cart</a>
+            <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-5by4">
+              <img src="/images/Rectangle 38 (1).png" alt="Loading...">
+            </figure>
+          </div>
+          <div class="card-content" style="text-align: center;">
+            <h4>Lorem Ipsum</h4>
+            <p><strong>$ 80.00</strong></p>
+            <a href="#" class="button">Add To Cart</a>
+            <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+<br>
+
+<!-- Card -->
+
+<div class="columns">
+  <div class="column">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-5by4">
+          <img src="/images/Rectangle 38 (2).png" alt="Loading...">
+        </figure>
+      </div>
+      <div class="card-content" style="text-align: center;">
+        <h4>Lorem Ipsum</h4>
+        <p><strong>$ 80.00</strong></p>
+        <a href="#" class="button">Add To Cart</a>
+        <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-5by4">
+          <img src="/images/Rectangle 38 (3).png" alt="Loading...">
+        </figure>
+      </div>
+      <div class="card-content" style="text-align: center;">
+        <h4>Lorem Ipsum</h4>
+        <p><strong>$ 80.00</strong></p>
+        <a href="#" class="button">Add To Cart</a>
+        <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<!-- Card -->
+
+<div class="columns">
+  <div class="column">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-5by4">
+          <img src="/images/Rectangle 38 (4).png" alt="Loading...">
+        </figure>
+      </div>
+      <div class="card-content" style="text-align: center;">
+        <h4>Lorem Ipsum</h4>
+        <p><strong>$ 80.00</strong></p>
+        <a href="#" class="button">Add To Cart</a>
+        <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-5by4">
+          <img src="/images/Rectangle 38 (5).png" alt="Loading...">
+        </figure>
+      </div>
+      <div class="card-content" style="text-align: center;">
+        <h4>Lorem Ipsum</h4>
+        <p><strong>$ 80.00</strong></p>
+        <a href="#" class="button">Add To Cart</a>
+        <a href="#" class="button"><span><i class="far fa-heart"></i></span></a>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+
+<!-- HR -->
+<div class="columns">
+  <div class="column"></div>
+  <div class="column"></div>
+  <div class="column"></div>
+  <div class="column">
+    <hr>
+    <a href="#">
+      <h4 style="text-align: center; font-size: 25px; font-weight: bold; color: black;">View More</h4>
+    </a>
+    <hr>
+  </div>
+  <div class="column"></div>
+  <div class="column"></div>
+  <div class="column"></div>
+</div>
+ <br>
+ <br>
+
+ <div>
+  <h1 class="title" style="color: black !important; text-align: center;">Didn't find what you are looking for??</h1>
+  <h2 class="subtitle" style="color: black !important; text-align: center;">We cover pre-order from all these website</h2>
+  </div>
+  
+  <br>
+  <br>
+  <!-- Card -->
+  <div class="columns">
+    <div class="column">
+      <div class="card">
+        <div class="card-image">
+          <a href="https://www.sephora.com/">
+            <figure class="image is-5by4">
+              <img src="/images/Rectangle.png" alt="Loading...">
+            </figure>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="card-image">
+          <a href="https://www.ulta.com/">
+            <figure class="image is-5by4">
+              <img src="/images/Rectangle 39.png" alt="Loading...">
+            </figure>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="card-image">
+          <a href="https://www.amazon.com/">
+            <figure class="image is-5by4">
+              <img src="/images/Rectangle 40.png" alt="Loading...">
+            </figure>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="card-image">
+          <a href="https://www.nordstrom.com/">
+            <figure class="image is-5by4">
+              <img src="/images/Nordstrom.png" alt="Loading...">
+            </figure>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="card-image">
+          <a href="https://www.glossier.com/">
+            <figure class="image is-5by4">
+              <img src="/images/glossier.jpg" alt="Loading...">
+            </figure>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="card-image">
+          <a href="https://www.allbeauty.com/">
+            <figure class="image is-5by4">
+              <img src="/images/allbeauty-logo.jpg" alt="Loading...">
+            </figure>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <!-- Form -->
+  <form id="form">
+    <label id="label">Drop a Link</label>
+    <input type="text" id="text"> <br>
+    <button class="button">Add More Link</button> <br>
+    <label  id="label" >Name</label>
+    <input type="text" id="text"> <br>
+    <label  id="label" >Email</label>
+    <input type="email" id="text"> <br>
+    <label  id="label" >Phone</label>
+    <input type="text" id="text"> <br>
+    <label  id="label" >Insta Name</label>
+    <input type="text" id="text"> <br>
+    <label  id="label" >FB Name</label>
+    <input type="text" id="text"> <br>
+
+    <button class="button is-danger" id="submit">Submit</button> <br>
+  </form>
+  <br>
+
+  <div class="columns">
+    <div class="column">
+      <h1 class="subtitle" style="text-align: center; margin-left: 15rem !important;">Not Ready now, save for later  </h1> 
+    </div>
+    <div class="column">
+      <button class="button is-danger" style="margin-top: 10px; margin-left: 5px; background-color: deeppink !important; border-radius: 5px;">Login/Signup</button>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <!-- HR -->
+  <div class="columns">
+    <div class="column is-half"><hr></div>
+    <h2 id="h5">Shop by Brands</h2>
+    <div class="column is-half"><hr></div> 
+  </div>
+
+  <!-- Card -->
+  <div class="columns">
+    <div class="column">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-5by4">
+            <img src="/images/Rectangle 54.png" alt="Loading...">
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-5by4">
+            <img src="/images/Rectangle 56.png" alt="Loading...">
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-5by4">
+            <img src="/images/Rectangle 58.png" alt="Loading...">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+<br>
+<div class="columns">
+  <div class="column">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-5by4">
+          <img src="/images/Rectangle 74.png" alt="Loading...">
+        </figure>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-5by4">
+          <img src="/images/Rectangle 74.png" alt="Loading...">
+        </figure>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-5by4">
+          <img src="/images/Rectangle 74.png" alt="Loading...">
+        </figure>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+  <div class="columns" style="text-align: center; background-color: deeppink;">
+    <div class="column">
+      <h2 class="title" style="color: #fff !important;">SECURE PAYMENT</h2>
+      <h2 class="subtitle"  style="color: #fff !important; font-size: 10px;">Lorem ipsum dolor sit.</h2>
+    </div>
+    <div class="column">
+      <h2 class="title" style="color: #fff !important;">24/7 SUPPORT</h2>
+      <h2 class="subtitle" style="color: #fff !important; font-size: 10px;">Lorem, ipsum dolor.</h2>
+    </div>
+    <div class="column">
+      <h2 class="title" style="color: #fff !important;">FREE SHIPPING</h2>
+      <h2 class="subtitle" style="color: #fff !important; font-size: 10px;">Lorem ipsum dolor sit.</h2>
+    </div>
+</div>
+<br>
+<br>
+
+<!-- HR -->
+<div class="columns">
+  <div class="column is-half"><hr></div>
+  <h2 id="h6">From the Blog</h2>
+  <div class="column is-half"><hr></div> 
+</div>
+
+<div class="columns">
+  <div class="column">
+    <h1 class="subtitle" style="text-align: center; margin-left: 15rem !important;">Get Tips on your Beauty, Read Our Blogs</h1> 
+  </div>
+  <div class="column">
+    <button class="button is-danger" style="margin-top: 10px; margin-left: 5px; background-color: deeppink !important; border-radius: 5px;">Check Blog</button>
+  </div>
+</div>
+
+<!-- Column -->
+<div class="columns">
+  <div class="column">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-5by4">
+          <img src="/images/Rectangle 66.png" alt="Loading...">
+        </figure>
+      </div>
+    </div>
+    <h2 class="subtitle">Skin Color</h2>
+    <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis!</p>
+    <a href="#" id="a">Read More...</a>
+  </div>
+  <div class="column">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-5by4">
+          <img src="/images/Rectangle 67.png" alt="Loading...">
+        </figure>
+      </div>
+    </div>
+    <h2 class="subtitle">Skin Care</h2>
+    <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <a href="#" id="a">Read More...</a>
+  </div>
+  <div class="column">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-5by4">
+          <img src="/images/Rectangle 68.png" alt="Loading...">
+        </figure>
+      </div>
+    </div>
+    <h2 class="subtitle">Sunscreen</h2>
+    <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, deleniti!</p>
+    <a href="#" id="a">Read More...</a>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="columns">
+  <div class="column"></div>
+  <div class="column">
+    <h1 class="subtitle is-3">Our Customer Love Us !!</h1>
+  </div>
+  <div class="column"></div>
+</div>
+<br>
+
+<div class="columns">
+  <div class="column"></div>
+  <div class="column"></div>
+  <div class="column"></div>
+  <div class="column">
+    <img src="./images/image 5.png" alt="Loading...">
+  </div>
+  <div class="column"><p id="bp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, soluta?</p></div>
+  <div class="column">
+    <img src="./images/image 4.png" alt="Loading...">
+  </div>
+  <div class="column"></div>
+  <div class="column"></div>
+  <div class="column"></div>
+</div>
+<h2 class="subtitle">Jane Cooper</h2>
+
+<br>
+
+<!-- Footer -->
+<section class="hero is-fullheight" id="foot">
+  <div class="columns" id="f1" style="margin-top: 0.5rem;">
+    <div class="column is-three-fifths">Subscribe to our email for offers and new in alerts</div>
+    <div class="column">Connect with us</div>
+    <div class="column">Pay securely with</div>
+  </div>
+  <div class="columns">
+    <div class="column is-two-fifths">
+      <div class="field">
+        <p class="control has-icons-left has-icons-right">
+          <input class="input" type="email" placeholder="Email">
+          <span class="icon is-small is-left">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <img src="./images/image 4.png" alt="Loading...">
+          </span>
+        </p>
+      </div> 
+    </div>
+    <div class="column"></div>
+    <div class="column">
+      <a href="https://esewa.com.np/#/home">
+      <img src="./images/image 11.png" alt="Loading esewa" id="esewa">
+      </a>
+      <a href="https://khalti.com/">
+        <img src="./images/image 12.png" alt="Loading Khalti" id="khalti">
+      </a>
+    </div>
+  </div>
+  <hr style="background-color: black !important;">
+  <br>
+  <div class="columns" style="color: #fff;">
+    <div class="column">
+      <ul>
+        <li><img src="./images/logo.PNG" alt="Xinney"></li>
+        <li><span><i class="fas fa-phone">+(977)980000000</i></span></li>
+        <li><span><i class="fas fa-map-marker-alt"></i>Xinney.nepal</span></li>
+        <li><span><i class="fas fa-envelope-open"></i>Xinney@gmail.com</span></li>
+      </ul>
+    </div>
+    <div class="column"></div>
+    <div class="column">
+     <ul>
+       <li class="subtitle is-5">Customer Service</li>
+       <br>
+       <li>Secure Payment</li>
+       <li>24/7 support</li>
+       <li>Free shipping</li>
+     </ul>
+    </div>
+    <div class="column"></div>
+    <div class="column">
+      <a href="https://www.facebook.com">
+        <span><i class="fab fa-facebook-square" style="color: #fff; font-size: 2rem;"></i></span>
+      </a>
+      <a href="https://www.instagram.com">
+        <span><i class="fab fa-instagram-square" style="color: #fff; font-size: 2rem;" ></i></span>
+      </a>
+      <ul>
+        <li><a href="#">My Account</a></li>
+        <li><a href="#">Log in</a></li>
+        <li><a href="#">Sign Up</a></li>
+      </ul>
+    </div>
+    <div class="column"></div>
+    <div class="column">
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+  </div>
+  <h2 class="subtitle" style="text-align: center; color: #fff !important;">Copyright 2020 Xinney Nepal. All Rights Reserved</h2>
+  <div class="hero-body">
+
+  </div>
+</section>
+
 
     <script
       src="https://kit.fontawesome.com/54e866e738.js" crossorigin="anonymous"></script>

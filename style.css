@@ -1,5 +1,7 @@
 * {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 hr {
@@ -47,6 +49,10 @@ hr {
   width: 10rem;
   color: black !important;
   background-color: #fff !important;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+
+
 }
 
 button:hover {
@@ -59,9 +65,10 @@ button:hover {
 }
 
 .subtitle {
-  color: #fff !important;
+  color: black !important;
   font-weight: bold !important;
   margin: 10px 0 0 0px !important;
+  text-align: center;
 }
 
 .page-container {
@@ -72,3 +79,144 @@ button:hover {
   margin: 0px;
 }
 
+.star {
+  margin: 5px 0px 0 50px;
+}
+
+#blink:hover{
+ background-color: white !important;
+ opacity: 0.3;
+}
+
+#form{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#label {
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 45px;
+}
+
+#text {
+width: 325px;
+height: 35px;
+justify-content: center;
+align-items: center;
+
+}
+
+#p {
+text-align: center;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+}
+
+#a{
+  font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+justify-content: center;
+color: #FD007A;
+}
+
+#bp {
+  width: 297px;
+height: 45px;
+left: 571px;
+top: 9636px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+text-align: center;  
+
+color: #333333;
+}
+
+#foot {
+background: #FF0078;
+opacity: 0.9;
+margin-bottom: 0px;
+}
+
+#f1{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+color: #FFFFFF;
+}
+
+
+#account, #cart{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #333333;
+}
+
+#d1 {
+width: 306px;
+height: 75px;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+text-align: center;
+color: #FD007A;
+}
+
+#d2 {
+width: 708px;
+height: 60px;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 49px;
+text-align: center;
+color: #333333;
+}
+
+#h1, #h2, #h3,#h4, #h5, #h6{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+text-align: center;
+color: #000000;
+}
+
+
+#submit {
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 37px;
+text-align: center;
+border: 2px solid #000000;
+box-sizing: border-box;
+
+}
+
+#arrow{
+  font-size: 25px;
+  margin: 25px;
+}
